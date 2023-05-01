@@ -75,9 +75,7 @@ Let's fire up our terminals and get exploring!
 
 ![](https://i.imgur.com/ZrPuVNq.png)
 
-You should see something like the following prompt:
 
-![Command Line Prompt](./assets/cl_prompt.png)
 
 When Terminal launches, it will start in your computer's home directory
 (whatever you named your computer). Your home directory is denoted by the tilde
