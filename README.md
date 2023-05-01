@@ -89,7 +89,7 @@ is not ready to receive input.
 
 Typing a random string of characters and hitting enter will produce a message
 `-bash: <your-random-string>: command not found`
-![Command not found](./assets/command_not_found.png)
+
 
 > What is a command?
 
@@ -260,6 +260,36 @@ shortcuts:
 - up / down arrow
 
   - cycle command history
+
+## More Commands
+
+| Command   | Explanation                                                                     |
+|-----------|---------------------------------------------------------------------------------|
+| `pwd`     | shows in which directory you're currently in                                    |
+| `mkdir`   | creates a new directory                                                         |
+| `ls`      | lists the contents of the current directory you're in                           |
+| `cd`      | moves you to the specified directory*                                           |
+| `cd ..`   | goes back one directory                                                         |
+| `cd ~`    | takes you to your home directory                                                |
+| `touch`   | creates an empty file                                                           |
+| `cp`      | copies an existing specified file and pastes it with whatever name you give it  |
+| `mv old/path new/path`      | moves an existing specified file to a specified destination   |
+| `mv path/filename path/newname` | if paths are the same with a differeent file name, the file's name will be changed                   |
+| `rm`      | deletes the specified file                                                      |
+| `rm -rf`  | deletes all of the files within a directory along with the directory itself     |
+| `man`     | open a help manual for a particular command                                     |
+| `history` | shows the history of the commands you've typed in your terminal                 |
+| `ctrl + r`| search through history of your commands (press enter to execute it)             |
+| `ctrl + u`| delete command line                                                             |
+| `df -h`   | displays free disk space                                                        |
+
+
+
+You will NOT be expected to have all of these commands memorized by the end of the day. As we continue on in the class, and you begin to use these each day, you will feel more and more comfortable with these different commands. 
+
+*Note: If you are using Zsh, you can leave out the `cd` entirely; the directly name itself will move you into it.
+
+
 
 ## You do: Create SEI Environment (5 minutes)
 
