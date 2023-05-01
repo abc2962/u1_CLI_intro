@@ -338,23 +338,11 @@ separated by commas with _no spaces_.
 ## Time to Practice!
 
 There are MANY more CLI commands to learn, more than we could cover in an entire
-day. There are two "cheatsheets" linked in this repo
-[here](cheatsheets/cli-cheatsheet.md) and
-[here](cheatsheets/additional-cli-cheatsheet.md) that are good references for
-CLI.
-
-Throughout this course, you'll find that the best way to learn a new skill is to
-gain a foothold in the topic, then wrestle with the material on your own and
-with the support your teammates and instructors to deepen your understanding.
-
-Labs give us the opportunity to do so, and they will almost always ask you to
-look up how to do things we didn't cover in the lecture. This is intentional and
-will help grow your meta-developer skills -- belief in your ability to learn new
+day. This is intentional and will help grow your meta-developer skills -- belief in your ability to learn new
 things and teach yourself, as well as improving your ability to Google and sift
 through resources like MDN, W3 Schools, and Stack Overflow.
 
-Let's turn to a [lab](https://git.generalassemb.ly/SEIR-201/kitchen-organizer)
-to get stronger at CLI.
+
 
 ## Closing
 
