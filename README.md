@@ -263,31 +263,65 @@ shortcuts:
 
 ## More Commands
 
-| Command   | Explanation                                                                     |
-|-----------|---------------------------------------------------------------------------------|
-| `pwd`     | shows in which directory you're currently in                                    |
-| `mkdir`   | creates a new directory                                                         |
-| `ls`      | lists the contents of the current directory you're in                           |
-| `cd`      | moves you to the specified directory*                                           |
-| `cd ..`   | goes back one directory                                                         |
-| `cd ~`    | takes you to your home directory                                                |
-| `touch`   | creates an empty file                                                           |
-| `cp`      | copies an existing specified file and pastes it with whatever name you give it  |
-| `mv old/path new/path`      | moves an existing specified file to a specified destination   |
-| `mv path/filename path/newname` | if paths are the same with a differeent file name, the file's name will be changed                   |
-| `rm`      | deletes the specified file                                                      |
-| `rm -rf`  | deletes all of the files within a directory along with the directory itself     |
-| `man`     | open a help manual for a particular command                                     |
-| `history` | shows the history of the commands you've typed in your terminal                 |
-| `ctrl + r`| search through history of your commands (press enter to execute it)             |
-| `ctrl + u`| delete command line                                                             |
-| `df -h`   | displays free disk space                                                        |
+| Command | Action |
+| ----------- | ---------- |
+| **pwd** | print working directory |
+| **ls** | list content of current directory |
+| **ls -a** | list content of current directory, including hidden files |
+| **ls -l** | list content of current directory with extra details |
+| **man** | manual |
+| **cd child-directory** | change directory |
+| **cd ..** | parent directory |
+| **cd** ~ | home directory |
+| **mkdir** [_name_] | create a directory |
+| **touch** [_name.ext_] | create a file - will not overwrite a file if it exists |
+| **open** [_name.ext_] | opens file |
+| **clear** | empties terminal screen |
+| **cat** [_name.ext_] | displays content of file in bash (terminal) |
+| **mv** [-options] [_path/to/file_] [_path/to/directory_] | move file to specified location|
+| **mv** [-options] [_path/to/file_] [_new name_] | renames file or directory |
+| **cp** [_path/to/file_] [_path/to/directory_] | copies files to specified directory or file name |
+| **cp -r** [_path/to/file_] [_path/to/directory_] | copies files and folders to specified directory or file name |
+| **rm** [_path/to/file_] | removes file PERMANENTLY! |
+| **rm -r** [_path/to/directory_]| removes directory PERMANENTLY! |
+| **rmdir** |  removes empty directory PERMANENTLY! |
+| [_name of program_] [_arguments_] | start a program (example: atom [_path/to/file_]), node [_path/to/file_] ...) |
+| **Ctrl + C** | abort a program that is currently active in the terminal |
+| **Ctrl + A** | jump to beginning of line |
+| **Ctrl + E** | jump to end of line |
+| **Ctrl + K** | clear the screen |
+| **tab** | autocomplete |
+| **arrow up** | fill line with previously entered command |
+| **arrow left/right** | jump to next/previous word |
+| **q** | end view of text in terminal (with some programs/views) |
+| **history** |  see a list of previously typed commands |
 
 
 
-You will NOT be expected to have all of these commands memorized by the end of the day. As we continue on in the class, and you begin to use these each day, you will feel more and more comfortable with these different commands. 
+## Git Commands
 
-*Note: If you are using Zsh, you can leave out the `cd` entirely; the directly name itself will move you into it.
+| Command | Action |
+| ----------- | ---------- |
+| **git status** | get current status for repo |
+| **git init** | initialize a current folder as a repo, i.e. start tracking changes |
+| **git clone** [_link_] | makes copied remote repo a new local repo |
+| **git add** [_path/to/file_] | stage file |
+| **git commit -m** [_"message"_] | commit changes and include a message describing commit |
+| **git log** | display timeline |
+| **git diff** [_path/to/file_] | show tracked but unstaged changes |
+| **git push origin master** | send changes to remote repository (push to gitHub) |
+| **git pull upstream master** | get latest changes from a remote repository |
+
+## NPM Commands
+
+| Command | Action |
+| ----------- | ---------- |
+| **npm init** | initialize a directory with package.json file for saving dependencies |
+| **npm install** [_package-name_] | install a package |
+| **npm i** [_package-name_] | install a package |
+| **npm install** [_package-name_] **--save** | install a package and keep a record of it in package.json . `--save` is not needed/the default in versions 5.0.0 of NPM and up|
+| **npm install** [_package-name_] **-g** | install a package as a global terminal command. You may need your administer password/ us `sudo` to compete a global install |
+| **npm install** | read package.json and install all listed dependencies |ely; the directly name itself will move you into it.
 
 
 
