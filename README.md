@@ -332,11 +332,12 @@ folders and files. This will be where you store all your work from SEI.
 
 ```sh
 sei
-  ├── homework
-  ├── labs
-  ├── lessons
-  │   └── cli_intro.md
-  ├── morning_exercises
+  ├── Unit1
+  │   └── Week1
+  │     └── Monday
+  ├── Unit2
+  ├── Unit3
+  ├── Unit3
   |-- projects
   └── sandbox
 ```
@@ -346,10 +347,10 @@ create a markdown file (extension `.md`) for a couple of lessons. One way to do
 this would be to run the commands one-by-one:
 
 ```sh
-touch lessons/cli_intro.md
-touch lessons/git_intro.md
-touch lessons/html.md
-touch lessons/css.md
+touch unit1/cli_intro.md
+touch unit1/git_intro.md
+touch unit1/html.md
+touch unit1/css.md
 ```
 
 That would absolutely work, but you could make do it in one command:
